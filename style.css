@@ -81,7 +81,7 @@ nav {
         flex-direction: column;
         height: auto;
     }
-    .item-nav.active {
+    .liste-nav.active {
         display: block;
     }
     .item-nav {
