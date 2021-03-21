@@ -219,10 +219,17 @@ nav {
     padding-top: 50px;
 }
 
-/*--------------- Bloc-1 -----------------*/
+/*--------------- Bloc-1 & Bloc-3 -----------------*/
 
 .bloc-1 {
     grid-area: 3 / 2 / 8 / 3;
+}
+
+.bloc-3 {
+    grid-area: 17 / 2 / 22 / 3 ;
+}
+
+.bloc-left {
     background: #333;
     color: #f1f1f1;
     position: relative;
@@ -230,31 +237,83 @@ nav {
     border-radius: 2px;
 }
 
-.bloc-1 img {
+.bloc-left img {
     position: absolute;
     left: 300px;
     top: 100px;
     width: 100%;
 }
 
-.bloc-txt-1 {
+.bloc-txt-left {
     width: 50%;
     height: 100%;
 }
 
-.bloc-txt-1 h3 {
+.bloc-txt-left h3 {
     width: 150%!important;
     font-size: 35px;
     margin: 15px 0;
     padding: 15px;
 }
 
-.bloc-txt-1 p {
+.bloc-txt-left p {
     line-height: 40px;
     padding: 15px;
 }
 
 .btn-bloc-left {
+    border-radius: 9999px;
+    outline: 0;
+    border: 0;
+    background: crimson;
+    border: 1px solid #333;
+    color: #f1f1f1;
+    padding: 20px 35px;
+    font-size: 20px;
+    display: flex;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+/*--------------- Bloc-2 -----------------*/
+.bloc-2 {
+    grid-area: 10 / 4 / 15 / 5;
+    background: #333;
+    color: #f1f1f1;
+    position: relative;
+    right: 100px;
+    border-radius: 2px;
+}
+
+.bloc-2 img {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    width: 100%;
+}
+
+.bloc-txt-2 {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.bloc-txt-2 h3 {
+    position: relative;
+    right: 50px;
+    width: 150%!important;
+    font-size: 35px;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.bloc-txt-2 p {
+    line-height: 40px;
+    padding: 15px;
+}
+
+.bloc-txt-2 button {
     border-radius: 9999px;
     outline: 0;
     border: 0;
